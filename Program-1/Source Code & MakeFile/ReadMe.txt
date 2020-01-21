@@ -17,13 +17,13 @@ Content of the MakeFile.cmd file:
 
 path=C:\Windows\Microsoft.NET\Framework\v4.0.30319
 
-// Utilize csc to compile c# .cs file with reference to the libraries used in the code into WebScraper.exe
+// Utilize csc to compile c# .cs file with reference to the libraries used in the code into ws.exe
 
-csc /r:System.Net.Http.dll,System.dll,System.Collections.dll /out:WebScraper.exe *.cs
+csc /r:System.Net.Http.dll,System.dll,System.Collections.dll /out:ws.exe *.cs
 
 // Start a new command console for executing the created .exe file
 
-start cmd /k echo Enter command: WebScraper.exe "url" "number of hops". (Example: WebScraper.exe http://courses.washington.edu/css502/dimpsey 5)
+start cmd /k echo Enter command: ws.exe "url" "number of hops". (Example: ws.exe http://courses.washington.edu/css502/dimpsey 5)
 
 /*------------LINKS THAT WAS USED TO TEST THE WEBSCRAPER------------*/
 
