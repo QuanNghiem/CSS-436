@@ -26,7 +26,10 @@ csc /r:System.Net.Http.dll,System.dll,System.Collections.dll /out:ws.exe *.cs
 start cmd /k echo Enter command: ws.exe "url" "number of hops". (Example: ws.exe http://courses.washington.edu/css502/dimpsey 5)
 
 /*------------LINKS THAT WAS USED TO TEST THE WEBSCRAPER------------*/
-
+Some of the URLs do not work as they are unable to be crawled by our program, causing errors with fonts and getting disconnected
+by the server. In this case, I am just printing out e.Message. Examples: facebook.com, microsoft.com, twitter.com. 
+Program works fine with various other URLs such as:
+http://snapchat.com
+http://google.com
 http://courses.washington.edu/css502/dimpsey
-
 http://courses.washington.edu/css342/dimpsey
