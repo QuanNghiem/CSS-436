@@ -9,13 +9,12 @@ namespace Program_2
     {
         #region Attributes
         // Openweather
-        private static readonly string key = "ae3097aa9f9e1fee6db1b92e139f4f0d";
-        //private static readonly string key = "ae3097aa9f9e1fee6db1b92e139f4f0f";
+        private static readonly string key = "Key";
         private static string currLocation;
         private static string openWeatherSearch;
 
         // Geonames
-        private static readonly string username = "quan117";
+        private static readonly string username = "usernamebro";
         private static string currCountry;
         private static string geoNamesSearch;
 
